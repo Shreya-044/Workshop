@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Layout</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-cyan-950">
+    <div id="wrapper">
+        <header class="bg-zinc-900 flex justify-between items-center">
+            <h1 class="p-5 text-3xl font-bold text-white">Logo</h1>
+            <ul class="flex p-3 m-2 gap-4 text-white decoration-4 w-400">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li class="bg-white hover:bg-black/50 rounded-2xl w-fit text-black hover:text-white font-bold"><a
+                        href="" class="p-4">Login</a></li>
+            </ul>
+        </header>
+
+        <section id="hero" class="bg-cyan-950 py-8 px-4 flex">
+            <div class="w-2/4 text-white mt-20">
+                <h2 class="font-extrabold text-4xl mb-4 mt-20 ml-5 pl-3">Midnight Cravings</h2>
+                <p class="mb-8  ml-5 pl-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, nihil.</p>
+                <a href=""
+                    class="bg-white hover:bg-black/50 text-black hover:text-white font-bold rounded-2xl p-4 m-7">Contact
+                    Us</a>
+            </div>
+            <div class="w-2/4">
+                <img src="images/resturent.jpeg" alt="" class="h-65 w-full">
+            </div>
+        </section>
+
+        <section id="hero1" class="bg-zinc-900 py-8 px-4 flex">
+            <div class="w-2/4 mt-20 mb-16">
+                <img src="images/multicuisine.jpg" alt="" class="h-65 w-full">
+            </div>
+            <div class="w-2/4 text-white">
+                <h2 class="font-extrabold text-4xl mb-4 text-right mt-60">Delicious Delights</h2>
+                <p class="text-right mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, nihil.</p>
+                <a href=""
+                    class="bg-white hover:bg-black/50 text-black hover:text-white font-bold rounded-2xl p-4 float-right">Explore
+                    Menu</a>
+            </div>
+        </section>
+    </div>
+
+    <hr class="bg-white"> 
+    <section id="heading-2" class="bg-zinc-900 py-8 px-4 flex">
+        <h2 class="font-extrabold text-4xl w-screen text-center text-white m-5">Menu</h2>
+    </section>
+
+    <section id="hero1-2" class="bg-zinc-900 py-8 px-4 flex justify-center items-center h-fit w-fit">
+        <div id="gallery" class="flex gap-12">
+
+            <div class="flex flex-col items-center">
+                <div class="w-52 h-52 overflow-hidden rounded-lg lg:w-72 lg:h-72">
+                    <img src="images/pao_bhaji.jpg" alt="Pav Bhaji"
+                        class="w-full h-full object-cover hover:scale-110 duration-300">
+                </div>
+                <p class="text-white mt-5 font-semibold text-lg">Pav Bhaji</p>
+                <p class="text-white mt-5 font-semibold text-m"><i class="fa-solid fa-indian-rupee-sign fa-sm" style="color: #fafafa;"></i> 160</p>
+                <a href="" class="bg-white hover:bg-black/50 rounded-2xl w-fit text-black hover:text-white font-bold m-5 p-2"> Add To Cart</a>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="w-52 h-52 overflow-hidden rounded-lg lg:w-72 lg:h-72">
+                    <img src="images/sandwich.jpg" alt="Sandwich"
+                        class="w-full h-full object-cover hover:scale-110 duration-300">
+                </div>
+                <p class="text-white mt-5 font-semibold text-lg">Sandwich</p>
+                <p class="text-white mt-5 font-semibold text-m"><i class="fa-solid fa-indian-rupee-sign fa-sm" style="color: #fafafa;"></i> 120</p>
+                <a href="" class="bg-white hover:bg-black/50 rounded-2xl w-fit text-black hover:text-white font-bold m-5 p-2"> Add To Cart</a>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="w-52 h-52 overflow-hidden rounded-lg lg:w-72 lg:h-72">
+                    <img src="images/pizza.jpg" alt="Pizza"
+                        class="w-full h-full object-cover hover:scale-110 duration-300">
+                </div>
+                <p class="text-white mt-5 font-semibold text-lg">Pizza</p>
+                <p class="text-white mt-5 font-semibold text-m"><i class="fa-solid fa-indian-rupee-sign fa-sm" style="color: #fafafa;"></i> 480</p>
+                <a href="" class="bg-white hover:bg-black/50 rounded-2xl w-fit text-black hover:text-white font-bold m-5 p-2"> Add To Cart</a>
+            </div>
+        </div>
+    </section>
+    <section id="hero1-3" class="bg-zinc-900 py-8 px-4 flex justify-center items-center h-fit mb-[30px]">
+        <div id="gallery" class="flex gap-12 mb-16">
+            <div class="flex flex-col items-center">
+                <div class="w-52 h-52 overflow-hidden rounded-lg lg:w-72 lg:h-72">
+                    <img src="images/chaumin.webp" alt="Chowmein"
+                        class="w-full h-full object-cover hover:scale-110 duration-300">
+                </div>
+                <p class="text-white mt-5 font-semibold text-lg">Chowmein</p>
+                <p class="text-white mt-5 font-semibold text-m"><i class="fa-solid fa-indian-rupee-sign fa-sm" style="color: #fafafa;"></i> 140</p>
+                <a href="" class="bg-white hover:bg-black/50 rounded-2xl w-fit text-black hover:text-white font-bold m-5 p-2"> Add To Cart</a>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="w-52 h-52 overflow-hidden rounded-lg lg:w-72 lg:h-72">
+                    <img src="images/samosa.jpg" alt="Samosa"
+                        class="w-full h-full object-cover hover:scale-110 duration-300">
+                </div>
+                <p class="text-white mt-5 font-semibold text-lg">Samosa</p>
+                <p class="text-white mt-5 font-semibold text-m"><i class="fa-solid fa-indian-rupee-sign fa-sm" style="color: #fafafa;"></i> 55</p>
+                <a href="" class="bg-white hover:bg-black/50 rounded-2xl w-fit text-black hover:text-white font-bold m-5 p-2"> Add To Cart</a>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="w-52 h-52 overflow-hidden rounded-lg lg:w-72 lg:h-72">
+                    <img src="images/patties.jpg" alt="Paneer Patties"
+                        class="w-full h-full object-cover hover:scale-110 duration-300">
+                </div>
+                <p class="text-white mt-5 font-semibold text-lg">Paneer Patties</p>
+                <p class="text-white mt-5 font-semibold text-m"><i class="fa-solid fa-indian-rupee-sign fa-sm" style="color: #fafafa;"></i> 60</p>
+                <a href="" class="bg-white hover:bg-black/50 rounded-2xl w-fit text-black hover:text-white font-bold m-5 p-2"> Add To Cart</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="hero2" class="bg-cyan-950 py-8 px-4 flex">
+        <h2 class="font-extrabold text-4xl w-screen text-center text-white m-5">Our Chefs</h2>
+    </section>
+
+    <section id="hero3" class="bg-cyan-950 py-8 px-4 flex justify-center items-center h-fit mb-24">
+        <div id="gallery" class="flex gap-12">
+
+            <div class="flex flex-col items-center">
+                <div class="w-72 h-72 overflow-hidden rounded-lg lg:w-22 lg:h-22">
+                    <img src="images/sanjeev.jpg" alt="Chef Sanjeev Kapoor"
+                        class="w-full h-full object-cover hover:scale-110 duration-300">
+                </div>
+                <p class="text-white mt-5 font-semibold text-lg">Chef Sanjeev Kapoor</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="w-72 h-72 overflow-hidden rounded-lg lg:w-22 lg:h-22">
+                    <img src="images/ranvir_brar.webp" alt="Chef Ranveer Brar"
+                        class="w-full h-full object-cover hover:scale-110 duration-300">
+                </div>
+                <p class="text-white mt-5 font-semibold text-lg">Chef Ranveer Brar</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="w-72 h-72 overflow-hidden rounded-lg lg:w-22 lg:h-22">
+                    <img src="images/Vikas-Khanna.webp" alt="Chef Vikas Khanna"
+                        class="w-full h-full object-cover hover:scale-110 duration-300">
+                </div>
+                <p class="text-white mt-5 font-semibold text-lg">Chef Vikas Khanna</p>
+            </div>
+        </div>
+    </section>
+
+    <section
+        class="bg-zinc-900 py-4 px-2 flex rounded-t-[65px] h-[515px] flex flex-col justify-center items-center text-center">
+        <h2 class="text-white font-extrabold text-3xl mb-8">Ready to Satisfy Your Midnight Cravings?</h2>
+        <p class="text-white text-lg mb-10">Experience the best of culinary artistry with our renowned chefs. Join us
+            today!</p>
+        <a href=""
+            class="bg-white text-black py-3 px-8 rounded-2xl text-xl font-bold hover:bg-black/50 hover:text-white transition duration-300 mb-12">
+            Book a Table
+        </a>
+        <blockquote class="text-white italic text-lg mb-6">
+            "An unforgettable culinary experience that will leave you craving for more."
+            <span class="font-semibold">- Chef Vikas Khanna</span>
+        </blockquote>
+    </section>
+</body>
+
+</html>
